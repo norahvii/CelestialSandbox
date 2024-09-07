@@ -6,7 +6,6 @@
       {
         "id": "40d6678022aecb97",
         "type": "tabs",
-        "dimension": 60.723350253807105,
         "children": [
           {
             "id": "2382e37b26485feb",
@@ -14,25 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Airflow_notes/Airflow Notes.md",
+                "file": "AstronomerGirls/README.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8c706fc0c6785f0c",
-        "type": "tabs",
-        "dimension": 39.276649746192895,
-        "children": [
-          {
-            "id": "b55be1dfac118594",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -85,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "81ea3b5171fc0366",
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Airflow_notes/Airflow Notes.md",
+                "file": "AstronomerGirls/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Airflow_notes/Airflow Notes.md",
+                "file": "AstronomerGirls/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Airflow_notes/Airflow Notes.md"
+                "file": "AstronomerGirls/README.md"
               }
             }
           }
@@ -162,9 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2382e37b26485feb",
+  "active": "624f665a1d0ada43",
   "lastOpenFiles": [
-    "Airflow_notes/time.md",
-    "Airflow_notes/Airflow Notes.md"
+    "dags/__pycache__/dag_with_operators.cpython-312.pyc.140293827098448",
+    "dags/__pycache__/dag_with_operators.cpython-312.pyc.140293827097776",
+    "dags/__pycache__/dag_with_taskflow.cpython-312.pyc.140293827096208",
+    "dags/__pycache__/passing_data_with_operators.cpython-312.pyc.140293827247536",
+    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140293827245488",
+    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140293827240112",
+    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140293827240880",
+    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140293827243696",
+    "dags/__pycache__/dag_with_operators.cpython-312.pyc.140593837391216",
+    "dags/__pycache__/dag_with_taskflow.cpython-312.pyc.140593837390544",
+    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140593837544880",
+    "README.md",
+    "TODO.md",
+    "AstronomerGirls/README.md",
+    "Airflow_notes/Airflow Notes.md",
+    "Airflow_notes/time.md"
   ]
 }
