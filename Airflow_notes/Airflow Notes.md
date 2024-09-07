@@ -103,13 +103,13 @@ NOTE(s):
 	- `astro dev start`
 	- `astro dev start -no-browser`
 	- `astro dev stop`
-	- `astro dev pytest
+	- `astro dev pytest`
 	- `astro help`
 	- `astro dev ps`
 	- `astro dev logs`
 	- `astro wo create --name "AstronomerGirls"`
 	- `astro deployment create -n "dev" -d "dev environment"`
-	- `astro deployment list
+	- `astro deployment list`
 	- `astro deployment delete`
 	- `astro deploy`
 	- `docker container prune`

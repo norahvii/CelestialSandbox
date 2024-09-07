@@ -148,6 +148,7 @@
   },
   "active": "624f665a1d0ada43",
   "lastOpenFiles": [
+    "README.md",
     "dags/__pycache__/dag_with_operators.cpython-312.pyc.140293827098448",
     "dags/__pycache__/dag_with_operators.cpython-312.pyc.140293827097776",
     "dags/__pycache__/dag_with_taskflow.cpython-312.pyc.140293827096208",
@@ -158,8 +159,6 @@
     "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140293827243696",
     "dags/__pycache__/dag_with_operators.cpython-312.pyc.140593837391216",
     "dags/__pycache__/dag_with_taskflow.cpython-312.pyc.140593837390544",
-    "dags/__pycache__/passing_data_with_taskflow.cpython-312.pyc.140593837544880",
-    "README.md",
     "TODO.md",
     "AstronomerGirls/README.md",
     "Airflow_notes/Airflow Notes.md",
