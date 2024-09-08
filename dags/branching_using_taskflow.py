@@ -1,10 +1,19 @@
 import pandas as pd
 import os
+from datetime import timedelta
+
 from airflow.utils.dates import days_ago
 from airflow.models import Variable
 from airflow.decorators import dag, task
 from airflow.operators.python import PythonOperator
 
+default_args = {
+    'owner': 'airflow',
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+dataset_dir = os.path.join(os.getcwd(), 'datasets')
 
 @dag(
     dag_id='branching_using_taskflow',
@@ -17,7 +26,7 @@ from airflow.operators.python import PythonOperator
 def branching_using_taskflow():
 
     def read_csv_file():
-        df = pd.read_csv('/Users/loonycorn/airflow/datasets/car_data.csv')
+        df = pd.read_csv(os.path.join(dataset_dir, 'car_data.csv'))
         print(df)
         return df.to_json()
 
