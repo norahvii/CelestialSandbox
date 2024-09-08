@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstronomerGirls/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstronomerGirls/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstronomerGirls/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstronomerGirls/README.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "624f665a1d0ada43",
+  "active": "2382e37b26485feb",
   "lastOpenFiles": [
+    "AstronomerGirls/README.md",
     "dags/__pycache__/branching_using_taskflow.cpython-312.pyc.140546716451376",
     "dags/__pycache__/branching_using_operators.cpython-312.pyc.140546716459184",
     "dags/__pycache__/branching_using_operators.cpython-312.pyc.140546716462768",
@@ -158,10 +159,8 @@
     "dags/__pycache__/branching_using_operators.cpython-312.pyc.140355601850800",
     "docker-compose.override.yml",
     "docker-compose.yml",
-    "dags/__pycache__/branching_using_operators.cpython-312.pyc.139728263097392",
     "README.md",
     "TODO.md",
-    "AstronomerGirls/README.md",
     "Airflow_notes/Airflow Notes.md",
     "Airflow_notes/time.md"
   ]
