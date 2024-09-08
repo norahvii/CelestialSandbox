@@ -10,7 +10,7 @@
 ---
 3. Commands to get started
 	- `astro dev start`
-	- `astro dev start -no-browser`
+	- `astro dev start --no-browser`
 	- `astro dev stop`
 	- `astro dev pytest`
 	- `astro help`
@@ -25,3 +25,6 @@
 	- `docker ps`
 	- `docker images`
 	- `airflow scheudler`
+---
+4. To specify a custom `docker-compose.yml` file, use the `--compose-file` method
+	- `astro dev start --compose-file ./path/to/custom-docker-compose.yml --env ./path/to/.env --no-browser`

@@ -14,9 +14,13 @@ default_args = {
 }
 
 dataset_dir = os.path.join(os.getcwd(), 'datasets')
-
+output_dir = os.path.join(os.getcwd(), 'output')
 
 def read_csv_file():
+    print(f"Current working directory: {os.getcwd()}") # Added to troubleshoot pathing issue
+    print(f"Output directory: {dataset_dir}")          # Added to troubleshoot pathing issue
+    print(f"Output directory: {output_dir}")           # Added to troubleshoot pathing issue
+
     df = pd.read_csv(os.path.join(dataset_dir, 'car_data.csv'))
     print(df)
     return df.to_json()
@@ -53,7 +57,9 @@ def write_csv_result(ti):
     json_data = ti.xcom_pull(key='transform_result')
     file_name = ti.xcom_pull(key='transform_filename')
 
-    output_dir = os.path.join(os.getcwd(), 'output')
+    print(f"Current working directory: {os.getcwd()}") # Added to troubleshoot pathing issue
+    print(f"Output directory: {output_dir}")           # Added to troubleshoot pathing issue
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 

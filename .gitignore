@@ -1,6 +1,7 @@
 .git
 .env
 .DS_Store
+.obsidian
 airflow_settings.yaml
 __pycache__/
 astro
@@ -11,4 +12,3 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
-

@@ -14,6 +14,7 @@ default_args = {
 }
 
 dataset_dir = os.path.join(os.getcwd(), 'datasets')
+output_dir = os.path.join(os.getcwd(), 'output')
 
 @dag(
     dag_id='branching_using_taskflow',
@@ -62,7 +63,6 @@ def write_csv_result(ti):
     json_data = ti.xcom_pull(key='transform_result')
     file_name = ti.xcom_pull(key='transform_filename')
 
-    output_dir = os.path.join(os.getcwd(), 'output')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
