@@ -59,17 +59,13 @@ def branching_using_taskflow():
         ti.xcom_push(key='transform_result', value=fwd_df.to_json())
         ti.xcom_push(key='transform_filename', value='fwds')
 
-def write_csv_result(ti): 
-    json_data = ti.xcom_pull(key='transform_result')
-    file_name = ti.xcom_pull(key='transform_filename')
-
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-
-    df = pd.read_json(json_data)
-    csv_path = os.path.join(output_dir, f'{file_name}.csv')
-    df.to_csv(csv_path, index=False)
-    print(f"Saved csv to {csv_path}")
+    def write_csv_result(ti): 
+        json_data = ti.xcom_pull(key='transform_result')
+        file_name = ti.xcom_pull(key='transform_filename')
+        df = pd.read_json(json_data)
+        csv_path = os.path.join(output_dir, f'{file_name}.csv')
+        df.to_csv(csv_path, index=False)
+        print(f"Saved csv to {csv_path}")
 
 
     read_csv_file_task = PythonOperator(
