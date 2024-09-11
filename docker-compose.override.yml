@@ -3,3 +3,4 @@ services:
   scheduler:
     volumes:
       - ./output:/usr/local/airflow/output
+      - ./database/my_sqlite.db:/usr/local/airflow/database/my_sqlite.db
